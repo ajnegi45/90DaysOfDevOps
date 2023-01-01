@@ -1,0 +1,8 @@
+What is DevOps?
+DevOps is not a Technology but a methodology, it is a combination of two words Development and Operation. In DevOps we can automate the whole infrastruture with the help of Tools.
+DevOps is important for the continous Integration for fast and better softwares development process also maintaining the deployed softwares.
+automation is the process which reduce human intervention for the work which require repeatable process. It make work fast and easy.
+
+scaling is increasing/decreasing the infrastructure according to the need of process. Not only in number of intances/workstation but also in capacity of CPU, Memory, Storage, Bandwidth etc.
+
+infrastructure is the type of network or workstation we are working. The processor for the work we are doing, the memory for our process, the storage for our data and many things kept in mind for building an infrastructure.
