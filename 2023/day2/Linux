@@ -1,0 +1,35 @@
+Some Basic commands of Linux
+
+pwd ( command to check the present working directory)
+
+ls  (command to check the directories and files in present directory)
+ls -a (to check the all directories and files including hidden files in present directories)
+ls -l (to check the all directories and files with complete information including their permissions, group and owner in present directory)
+ls path_of_directory (to check the list of directories and files in any other directory mentioned there like /home/ubuntu/Desktop)
+
+cd Directory (command to move from one directory to another but that directory should be present in current directory)
+cd .. (command to move back to previous directory)
+cd path_of_directory (command to move any of directory with the help of path)
+
+mkdir name_of_directory  (command to create a new directory)
+mkdir dir1 dir2 dir3 dir4 (command to create multiple directory at a time)
+mdir .dir (command to create hidden directory)
+
+rmdir dir (command to delete a directory)
+rmdir dir1 dir2 dir3 dir4 (command to delete multiple file at a time)
+rmdir .dir (command to delete hidden directory)
+
+
+touch file  (commad to create an text file)
+touch file1 file2 file3 file4   (command to create multiple file at a time)
+touch .file (command to create a hidden text file)
+
+rm file (command to remove/delete a text file)
+rm file1 file2 file3 file4  (command to delete multiple file at a time)
+rm .file (command to delete a hidden text file)
+
+cat file (commad to read a text file but only read)
+nano/vim file (commad to read and modify any text file)
+
+
+
