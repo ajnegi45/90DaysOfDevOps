@@ -10,6 +10,8 @@ cp source_file_path destination_file_path  (command to copy a file to another lo
 
 mv source_file_path destination_path  command to move a file from one place to another this is just like cut paste)
 
+rm file_name  (comand to delete or remove any file from directory)
+
 vim file_name    (command to read, write and modify the file if user has the permision to do)
 in vim editor there are some steps to edit, save and exit
 * once vim command will run we are inside the file we have to use " i " to insert any thing in file
@@ -37,5 +39,11 @@ chmod u+rw file name
 chmod g=u file_name
 also
 chmod a+rwx filename (to provide permission to all)
-
+ 
+to check only required line of your file
+ head -n file_name  (command to check only required number of your file from top)
+ tail -n file_name  (command to check only required number of your file from bottom)
+ 
+to check the difference between two file
+ diff file_1 file_2
 
