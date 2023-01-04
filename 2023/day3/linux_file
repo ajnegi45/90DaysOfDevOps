@@ -1,0 +1,41 @@
+Linux Advanced command
+
+Some file creating command and editors
+
+touch file_name  (command to just create a file)
+
+cat file_name   (command to read any file but cant modify it)
+
+cp source_file_path destination_file_path  (command to copy a file to another location)
+
+mv source_file_path destination_path  command to move a file from one place to another this is just like cut paste)
+
+vim file_name    (command to read, write and modify the file if user has the permision to do)
+in vim editor there are some steps to edit, save and exit
+* once vim command will run we are inside the file we have to use " i " to insert any thing in file
+* now if editing is completed then press " esc " to exit from insert mode
+* now if you want to come out of file press " :q " or if you want to save the file also use " w " like, " :qw "
+
+if you feel uncomfortable in vim you can also use 
+nano file_name  (command to another file editor tool)
+
+
+now permission of directory and file
+Read (r)	4
+Write (w)	2
+Execute (x)	1
+      ogu
+chmod 777 file_name  (command to give full permission to all)
+
+a= all
+u = owner           + to add permission
+g = group           - to remove premission
+o = other user      = to set exect permission
+
+eg
+chmod u+rw file name
+chmod g=u file_name
+also
+chmod a+rwx filename (to provide permission to all)
+
+
